@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.productList{
+    width: 400px;
+    
+    outline: 2px solid black;
+    border-radius: 5px;
+}
+
+.productList h1{
+    text-align: center;
+    font-size: 30px;
+    color: #333;
+}
+.productList p{
+    margin: 0 10px 0 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
